@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Imagens com tamanhos flexiveis, aumente ou diminua seu navegador para obter diferentes versões.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <p>Usando a tag source media definimos o tamanho maximo para que cada imagem seja carregada. <br>
+    Sendo assim, a imagem P será carregada enquanto a tela tiver no máximo 750 pixels, a imagem M será carregada enquanto a tela tiver no máximo 1050 pixels, após isso a imagem G é carregada para telas com resoluções maiores.</p>
+</body>
+</html>
