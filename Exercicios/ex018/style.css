@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'gril' ;
+    src: url('Filxgirl') format('truetype'), url('Filxgirl');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'gril';
+}
+
+h1 {
+    font-family:'gril';
+    font-size: 3em;
+}
