@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: aquamarine;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(11, 223, 117);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: darkblue;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/eduardosichelero">Repositorio GitHub</a></li>
+        <li><a href="https://www.instagram.com/hts.dudu/">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/eduardo-sichelero/">Linkedin</a></li>
+    </ul>
+</body>
+</html>
