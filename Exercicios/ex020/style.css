@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: rgb(188, 30, 169);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(11, 223, 117);
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: darkblue;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: blueviolet;
+}
