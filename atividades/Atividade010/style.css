@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'ID';
+    src: url('fontes/IDroid.otf') format('truetype'),url('idroid.ttf') format('truetype');
+}
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: justify;
+
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+}
+
+h1#principal {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+
+h1#secundario{
+    font-family: 'ID';
+    font-weight: normal;
+    color: #1A5C38;
+}
+
+h2#secundario{
+    font-family: "ID";
+    font-weight: normal;
+    color: #1A5C38;
+}
+nav {
+    text-align: left;
+    background-color:#1A5C38;
+    padding:  5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+    margin:1px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+
+}
+
+nav > a :hover {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+main {
+    padding:10px;
+    border:100px solid #1A5C38;
+    border-top: 0px;
+}
