@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(83, 70, 70);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: rgb(83, 70, 70);
+        }
+ 
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+        .num {
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        Anatomia para Tabelas Grandes
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das 20 Primeiras Unidades Federativas.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"><strong>45.919.049</strong></td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"><strong>21.168.791</strong></td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"><strong>17.264.943</strong></td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"><strong>14.136.417</strong></td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num"><strong>11.443.208</strong>	</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td class="num"><strong>10.880.506</strong>	</td>
+            </tr>
+            <tr>
+                <td> Pernambuco</td>
+                <td class="num"><strong>9.058.155</strong>	</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num"><strong>8.791.688</strong>	</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num"><strong>8.116.132</strong>	</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num"><strong>7.609.60</strong>1	</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num"><strong>7.055.228</strong>	</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num"><strong>6.775.152</strong>	</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num"><strong>3.974.495</strong>	</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num"><strong>3.941.175</strong>	</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num"><strong>3.833.486</strong>	</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num"><strong>3.658.813</strong>	</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="num"><strong>3.302.406</strong>	</td>
+            <tr>
+                <td>Piauí</td>
+                <td class="num"><strong>3.269.200</strong>	</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num"><strong>3.127.511</strong>	</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num"><strong>2.817.068</strong>	</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>Muita gente</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
