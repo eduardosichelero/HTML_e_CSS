@@ -32,6 +32,13 @@
         .num {
             text-align: center;
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +46,7 @@
     <!--
         Anatomia para Tabelas Grandes
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -47,10 +55,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das 20 Primeiras Unidades Federativas.</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -134,34 +143,11 @@
                 <td class="num"><strong>2 817 068</strong>	</td>
             </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td>0000</td>
+                <th scope="row">Total de Habitantes</th>
+                <td>Muita gente</td>
             </tr>
         </tfoot>
     </table>
