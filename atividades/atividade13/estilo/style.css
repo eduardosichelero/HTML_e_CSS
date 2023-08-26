@@ -13,23 +13,24 @@ header {
 
 }
 
-#conteiner {
-    background-image: url(imagens/target001.png);
+.conteiner {
+    background-image: url(../imagens/bg2.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
     
     position: relative;
-    height: 96vh;
+    height: 98vh;
     padding: 10px;
-    background-color: purple;
 }
 
-#conteudo {
-    background-image: url(imagens/target001.png);
+.conteudo {
     background-size: 100% 100%;
+    text-align: start;
     position: absolute;
     height: 200px;
-    width: 400px;
-    background-color: yellow;
+    width: 1000px;
+    color: white;
+    font-size: 2em;
 
     left: 50%;
     top: 50%;
