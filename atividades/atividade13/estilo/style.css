@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 body{
@@ -10,11 +11,23 @@ body{
 }
 
 header {
+    background-image: url(../imagens/bg2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    position: relative;
+    height: 98vh;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
 
+header a {
+    color: white;
 }
 
 .conteiner {
-    background-image: url(../imagens/bg2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     
@@ -23,9 +36,15 @@ header {
     padding: 10px;
 }
 
+#sobre {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px
+}
 .conteudo {
     background-size: 100% 100%;
-    text-align: start;
+    text-align: center;
+    background-color: brown;
     position: absolute;
     height: 200px;
     width: 1000px;
